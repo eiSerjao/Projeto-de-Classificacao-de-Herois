@@ -25,4 +25,4 @@ if (aventureiro[0][1] < 1000){
   patente = "Radiante"
 } 
 
-console.log("Sua patente é do nivel " + patente)
+console.log("O Héroi de nome " + aventureiro[0][0] + " está no nível de " + aventureiro[0][1])

@@ -1,5 +1,5 @@
 let aventureiro = [
-  ["Caião", 1001]
+  ["Caião", 1000]
 ];
 
 console.log("Olá aventureiro, pronto para uma nova aventura?")
