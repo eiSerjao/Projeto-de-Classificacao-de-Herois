@@ -1,11 +1,24 @@
 let aventureiro = [
-  ["Caião", 1001]
+  ["Caião", 500]
+  ["Serjão", 1001]
+  ["Leleco", 2001]
+  ["Yago", 5001]
+  ["Henrique", 7001]
+  ["Raonny", 8001]
+  ["Natalia", 9001]
+  ["João", 10001]
 ];
 
-console.log("Olá aventureiro, pronto para uma nova aventura?")
-console.log("Para começarmos, me dê o seu nome e qual o seu atual XP.")
+console.log("Olá aventureiros, prontos para uma nova aventura?")
+console.log("Para começarmos, me dê o seus nomes e seu atual XP.")
 
-if (aventureiro[0][1] < 1000){
+for (contador = 0; contador < aventureiro.length; contador++){
+  let nome = aventureiro[contador][0];
+  let xp = aventureiro[contador][1];
+  let patente = "";
+}
+
+  if (aventureiro[0][1] < 1000){
   patente = "Ferro";
 } else if (aventureiro[0][1] >= 1001 && aventureiro[0][1] <= 2000){
   patente = "Bronze"
@@ -18,11 +31,9 @@ if (aventureiro[0][1] < 1000){
 } else if (aventureiro[0][1] >= 8001 && aventureiro[0][1] <= 9000){
   patente = "Ascendente"
 } else if (aventureiro[0][1] >= 9001 && aventureiro[0][1] <= 10000){
-  patente = "Ascendente"
-} else if (aventureiro[0][1] >= 10001){
-  patente = "Radiante"
+  patente = "Imortal"
 } else {
   patente = "Radiante"
 } 
 
-console.log("O Héroi de nome " + aventureiro[0][0] + " está no nível de " + aventureiro[0][1])
+console.log("O Herói de nome " + nome + " está no nível " + xp)
