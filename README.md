@@ -83,7 +83,7 @@ Se você deseja contribuir com este projeto, siga estas etapas:
 3. Commit suas mudanças:
    ```bash
    git commit -am 'Adicionar nova feature'
-   ```bash
+   ```
 4. Push para a branch:
    ```bash
    git push origin feature/nova-feature
