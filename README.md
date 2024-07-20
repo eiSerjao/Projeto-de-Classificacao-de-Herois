@@ -19,7 +19,7 @@ Inicialmente, achei que seria fácil implementar o projeto, mas enfrentei dificu
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/eiSerjao/Estudos-De-Logica-da-Progamacao.git
+   git clone https://github.com/eiSerjao/Estudos-De-Logica-de-Progamacao.git
    ```
 ## Navegue até o diretório do projeto:
    ```bash
